@@ -315,6 +315,7 @@ p {
     font-weight: 800;
     line-height: 60px;
     text-transform: uppercase;
+    font-size:2.9em;
 }
 @media(max-width:767px){
     .one-page-static-wrap .static-text h1{
