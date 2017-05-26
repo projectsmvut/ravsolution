@@ -758,7 +758,7 @@ input[type="color"]:focus,
 /****************************footer************************/
 #footer{
     background-color: #333;
-    padding: 35px 0 40px;
+    padding: 20px 0;
     color: #969696;
     border-top: 4px solid #777;
 }
@@ -829,8 +829,6 @@ input[type="color"]:focus,
     opacity: 1;
 }
 .footer-btm{
-    padding: 30px 20px;
-    border-top: 1px solid #444;
     text-align: center;
 }
 
