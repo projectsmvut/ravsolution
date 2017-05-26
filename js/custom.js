@@ -17,6 +17,8 @@
          success: function (data, status)
          {
             console.log(data);
+            $('.mailForm').find("input[type=text],input[type=email], textarea").val("");
+            $('.notification').show();
          },
          error: function (xhr, desc, err)
          {}
