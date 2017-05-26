@@ -194,8 +194,8 @@ h6 {
 }
 /*parahraphs*/
 p {
-    color: #777777;
-    line-height: 24px;
+    color: #3e3e3e;
+    line-height: 26px;
     margin: 0 0 20px;
 }
 
@@ -524,6 +524,7 @@ input[type="color"]:focus,
 /*progress rounded*/
 .process-rounded{
     background: url(../img/farzad-nazifi-71686-min.jpg) top;
+    background-size: cover;
     padding: 50px 0;
 }
 .process-rounded h3{
@@ -775,14 +776,14 @@ input[type="color"]:focus,
 }
 .address-info li{
     padding: 3px 0;
-     color:#969696;
+     color:#3e3e3e;
 }
 .address-info li i{
     color:#f99200;
     margin-right: 5px;
 }
 .address-info li a{
-    color:#969696;
+    color:#3e3e3e;
 }
 .address-info li a:hover{
     color:#f99200;
