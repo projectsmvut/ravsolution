@@ -169,31 +169,31 @@
                       <div class="service-box wow animated fadeInLeft">
                           <h4><i class="fa fa-desktop"></i> Web Designing</h4>
                           <p>
-                           A good design evokes positive behavioral triggers, so a good looking website is essential for every business. We create engaging design that infuses seamlessly with the function of the website.
+                             A good design evokes positive behavioral triggers, so a good looking website is essential for every business. We create engaging design that infuses seamlessly with the function of the website.
+                         </p>
+                     </div><!--service box-->
+                 </div><!--service-col-->
+             </div><!--row-->
+             <div class="divide40"></div>
+             <div class="row">
+                <div class="col-md-6 margin20">
+                    <div class="service-box wow animated fadeInLeft">
+                        <h4><i class="fa fa-thumbs-o-up"></i> Mobile app development</h4>
+                        <p>
+                           We provide the best mobile app development solutions in Adroid, iOs and Hybrid platforms to make our clients remain competitive in the upcoming mobile-centric market.
                        </p>
                    </div><!--service box-->
                </div><!--service-col-->
-           </div><!--row-->
-           <div class="divide40"></div>
-           <div class="row">
-            <div class="col-md-6 margin20">
+               <div class="col-md-6 margin20">
                 <div class="service-box wow animated fadeInLeft">
-                    <h4><i class="fa fa-thumbs-o-up"></i> Mobile app development</h4>
+                    <h4><i class="fa fa-flag"></i> Startup Software Development</h4>
                     <p>
-                     We provide the best mobile app development solutions in Adroid, iOs and Hybrid platforms to make our clients remain competitive in the upcoming mobile-centric market.
-                 </p>
-             </div><!--service box-->
-         </div><!--service-col-->
-         <div class="col-md-6 margin20">
-            <div class="service-box wow animated fadeInLeft">
-                <h4><i class="fa fa-flag"></i> Startup Software Development</h4>
-                <p>
-                    Quisque ligulas ipsum, euismod atras vulputate iltricies etri elit. Lorem ipsum dolor sit amet, consectetur.
-                </p>
-            </div><!--service box-->
-        </div><!--service-col-->
-    </div>
-</div><!--services -->
+                        Quisque ligulas ipsum, euismod atras vulputate iltricies etri elit. Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                </div><!--service box-->
+            </div><!--service-col-->
+        </div>
+    </div><!--services -->
 </section><!--services -->
 
 <section id="portfolio" class="padding-80">
@@ -310,26 +310,27 @@
             <div class="col-md-6 margin30">
                 <h3 class="heading">Get In Touch</h3>
                 <div class="contact-form">
-                    <form role="form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="mail">Email</label>
-                            <input type="email" class="form-control" id="mail" required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" rows="13" id="message" required=""></textarea>
-                        </div>
+                 <form role="form" class="mailForm" action="http://localhost:8000/mail" method="post" enctype="multipart/form-data">
+                     <div class="form-group">
+                         <label for="name">Name</label>
+                         <input type="text" class="form-control" id="name" name="name">
+                     </div>
+                     <div class="form-group">
+                         <label for="mail">Email</label>
+                         <input type="email" class="form-control" id="mail" required="" name="email">
+                     </div>
+                     <div class="form-group">
+                         <label for="message">Message</label>
+                         <textarea class="form-control" rows="13" id="message" required="" name="message"></textarea>
+                     </div>
 
-                        <button type="submit" class="btn btn-theme-bg">Send Message</button>
-                    </form><!--form-->
-                </div><!--contact-form-->
-            </div>
-            <div class="col-md-6">
-                <h3 class="heading">Address</h3>
+                     <button type="submit" class="btn btn-theme-bg">Send Message</button>
+                 </form>
+
+             </div><!--contact-form-->
+         </div>
+         <div class="col-md-6">
+            <h3 class="heading">Address</h3>
                <!--  <p>
                     Duis nisl est, porta eu augue et, tempor congue mauris. Praesent a ligula in urna consectetur rhoncus.
                 </p> -->
@@ -379,13 +380,13 @@
                     Connect with us!
                 </p>
                 <ul class="list-inline social-1">
-                 <li><a href="#"><i class="fa fa-facebook" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
-                 <li><a href="#"><i class="fa fa-twitter" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
-                 <li><a href="#"><i class="fa fa-google-plus" data-toggle="tooltip" title="" data-original-title="Google pluse" data-placement="top"></i></a></li>
-             </ul>
-         </div>
-     </div>
- </div><!--contact detail-->
+                   <li><a href="#"><i class="fa fa-facebook" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
+                   <li><a href="#"><i class="fa fa-twitter" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
+                   <li><a href="#"><i class="fa fa-google-plus" data-toggle="tooltip" title="" data-original-title="Google pluse" data-placement="top"></i></a></li>
+               </ul>
+           </div>
+       </div>
+   </div><!--contact detail-->
 </div>
 </section><!--#contact-->
 <footer id="footer">
