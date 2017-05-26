@@ -157,7 +157,25 @@ h4 {
     line-height: 27px;
     margin: 0 0 14px 0;
 }
-
+h4.heading{
+    border-bottom: 1px solid #E5E5E5;
+    color: #4e4e4e;
+    font-size: 13px;
+    margin: 0 0 25px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+h4.heading:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background: #f99200;
+    width: 90px;
+    bottom: -1px;
+    left: 0px;
+}
 h5 {
     font-size: 1em;
     font-weight: 400;
