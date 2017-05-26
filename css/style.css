@@ -1020,6 +1020,6 @@ h3.heading-progress {
 	font-size: 28px;
 }
 
-.sendingMail{
+.sendingMail,.mailSent{
 	display: none;
 }
