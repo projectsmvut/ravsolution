@@ -1019,3 +1019,7 @@ h3.heading-progress {
 	padding: 14px;
 	font-size: 28px;
 }
+
+.sendingMail{
+	display: none;
+}
