@@ -558,7 +558,7 @@ input[type="color"]:focus,
 }
 
 /**************work and portfolio whole*******/
-#portfolio{
+#portfolio,#team{
 	background-color: #d4d4d4;
 }
 /* mouse grab icon */
@@ -657,9 +657,9 @@ input[type="color"]:focus,
 	padding-right: 1px;
 }
 .social-1 li a i{
-	width:32px;
-	height: 32px;
-	line-height: 32px;
+	width:73px;
+	height: 38px;
+	line-height: 38px;
 	text-align: center;
 	color:#fff;
 	font-size: 16px;
