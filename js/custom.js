@@ -107,6 +107,23 @@ $(document).ready(function() {
     });
 
 });
+//owl carousel for work
+$(document).ready(function() {
+
+  $("#work-carousel1").owlCarousel({
+      // Most important owl features
+      items : 5,
+      itemsCustom : false,
+      itemsDesktop : [1199,4],
+      itemsDesktopSmall : [980,3],
+      itemsTablet: [768,3],
+      itemsTabletSmall: false,
+      itemsMobile : [479,1],
+      singleItem : false,
+      startDragging : true
+    });
+
+});
 
 
 //owl carousel for testimonials
